@@ -9,16 +9,16 @@
 
 <body>
     <script>
-        function S(n) {
-            var s = 0;
-            var t = 0;
+        function S(x, n) {
+            var s = x;
+            var t = 1;
             for (var i = 1; i <= n; i++) {
-                t = t + i;
-                s = s + 1 / t;
+                t = t * x * x;
+                s = s + t * x;
             }
             return s;
         }
-        console.log(S(4));
+        console.log(S(2,2));
     </script>
 </body>
 
