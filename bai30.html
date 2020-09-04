@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function KiemTraSoHoanThien(n) {
+            var s = 0;
+            for (var i = 1; i < n; i++)
+                if (n % i == 0)
+                    s += i;
+            if (s == n)
+                return "Phải là số hoàn thiện";
+            return "không phải là số hoàn thiện";
+        }
+        console.log(KiemTraSoHoanThien(20));
+    </script>
+</body>
+
+</html>
