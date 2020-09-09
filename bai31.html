@@ -10,11 +10,14 @@
 <body>
     <script>
         function kiemtra(n) {
-            if (n < 2)
+            if (n < 2) {
                 return false;
-            for (var i = 2; i <= n / 2; i++)
-                if (n % i == 0)
-                    return "không phải là 1 số nguyên tố";
+            }
+            for (var i = 2; i <= n / 2; i++) {
+                if (n % i == 0) {
+                }
+            }
+            return "không phải là 1 số nguyên tố";
             return "Phải là 1 số nguyên tố";
         }
         console.log(kiemtra(3))
