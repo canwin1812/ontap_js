@@ -13,14 +13,14 @@
             var s = 1 + x;
             var t1 = x;
             var t2 = 1;
-            for (var i = 0; i <= n; i++) {
+            for (var i = 1; i <= n; i++) {
                 t1 = t1 * x * x;
                 t2 = t2 * i;
                 s = s + t1 / t2;
             }
             return s;
         }
-        console.log(S(2, 4));
+        console.log(S(2, 0));
     </script>
 </body>
 
