@@ -10,12 +10,13 @@
 <body>
     <script>
         function S(n) {
-            var dem = 0;
+            var lietke = 0;
             for (var i = 1; i <= n; i++) {
-                if (n % i == 0)
-                    dem++;
+                if (n % i == 0) {
+                    lietke++;
+                }
             }
-            return dem;
+            return lietke;
         }
         console.log(S(24));
     </script>
