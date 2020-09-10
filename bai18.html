@@ -10,10 +10,10 @@
 <body>
     <script>
         function S(x, n) {
-            var s = 0;
+            var s = 1;
             var t1 = 1;
             var t2 = 1;
-            for (var i = 1; i <= n; i++) {
+            for (var i = 2; i <= 2 * n; i =  i + 2) {
                 t1 = t1 * x * x;
                 t2 = t2 * i;
                 s = s + t1 / t2;
