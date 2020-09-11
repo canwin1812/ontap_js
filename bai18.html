@@ -9,7 +9,18 @@
 
 <body>
     <script>
-       
+       function S(x, n) {
+            var s = 1;
+            var t1 = 1;
+            var t2 = 1;
+            for (var i = 2; i <= 2 * n; i =  i + 2) {
+                t1 = t1 * x * x;
+                t2 = t2 * i;
+                s = s + t1 / t2;
+            }
+            return s;
+        }
+        console.log(S(2, 3));
     </script>
 </body>
 
