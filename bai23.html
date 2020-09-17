@@ -9,16 +9,16 @@
 
 <body>
     <script>
-        function S(n, x) {
-            var s = x;
-            var t = 1;
+        function dem_so(n) {
+            var dem = 0;
             for (var i = 1; i <= n; i++) {
-                t = t * x * x;
-                s = s + t * x;
+                if (n % i == 0)
+                    dem++;
             }
-            return s;
+
+            return dem;
         }
-        console.log(S(5, 9));
+        console.log(dem_so(13));
     </script>
 </body>
 
