@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        function S(n){
-            let sum = 0
-            for(var i = 1; i <= n; i++) {
-            sum += sum * i;
+       function S(x, n) {
+            var s = 1;
+            var t1 = 1;
+            var t2 = 1;
+            for (var i = 2; i <= 2 * n; i =  i + 2) {
+                t1 = t1 * x * x;
+                t2 = t2 * i;
+                s = s + t1 / t2;
+            }
+            return s;
         }
-        return sum;
-        }
-        console.log(S(5));
+        console.log(S(2, 3));
     </script>
 </body>
+
 </html>
