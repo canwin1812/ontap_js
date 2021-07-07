@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function SoNguyenDuong(n) {
+            var usl = 1;
+            for (var i = 1; i <= n; i++) {
+                if (n % i == 0) {
+                    if (i % 2 == 1) {
+                        usl = i;
+                    }
+                    return usl;
+                }
+            }
+        }
+        console.log(SoNguyenDuong(20));
+    </script>
+</body>
+
+</html>
