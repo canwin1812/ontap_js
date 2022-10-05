@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://gamek.mediacdn.vn/133514250583805952/2021/5/2/photo-6-1619946849306429334200.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav  h1{
+    color: white;
+    font-size: 35px;
+}
+.nav-links {
+    flex: 1;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 22px;
+    align-items: center;
+    position: relative;
+    font-size: 12px;
+    left: 130px;
+    
+    
+}
+.main-content{
+    display: flex;
+    min-height: 100vh;
+}
+
+.content{
+    margin-top: 150px;
+    flex-basis: 50%;
+}
+.side-bar{
+    margin-top: 150px;
+    flex-basis: 50%;
+}
+.featured{
+    display: flex;
+    min-height: 65vh;
+}
+.information{
+    flex-basis: 50%;
+    background-color: red;
+}
+.year{
+    flex-basis: 50%;
+    background-color: yellow;
+}
+.worked{
+    min-height: 60vh;
+    background-color: gray;
+
+}
+.sevices{
+    display: flex;
+    min-height: 200vh;
+}
+.website{
+    background-color: yellow;
+    flex-basis: 50%;
+}
+.branding{
+    background-color: azure;
+    flex-basis: 50%;
+}
+.projects{
+    min-height: 150vh;
+    background-color: brown;
+}
+.sayhi{
+    background-color: chocolate;
+    min-height: 100vh;
+}
+.footer{
+    background:grey;
+    padding: 15px;
+    text-align: center;
+}
